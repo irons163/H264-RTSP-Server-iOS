@@ -1,0 +1,6 @@
+framework module H264_RTSP_Server_iOS {
+  umbrella header "H264-RTSP-Server-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841255A116A035E3001749D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255A016A035E3001749D9 /* UIKit.framework */; };
-		841255A316A035E3001749D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255A216A035E3001749D9 /* Foundation.framework */; };
-		841255A516A035E3001749D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255A416A035E3001749D9 /* CoreGraphics.framework */; };
+		36F4CE118EE82895A8ED1BF8 /* Pods_Encoder_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA6CAD210AD8662E10651A9 /* Pods_Encoder_Demo.framework */; };
 		841255AB16A035E3001749D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841255A916A035E3001749D9 /* InfoPlist.strings */; };
 		841255AD16A035E3001749D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841255AC16A035E3001749D9 /* main.m */; };
 		841255B116A035E3001749D9 /* EncoderDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841255B016A035E3001749D9 /* EncoderDemoAppDelegate.m */; };
@@ -19,12 +17,8 @@
 		841255BA16A035E3001749D9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841255B816A035E3001749D9 /* MainStoryboard_iPhone.storyboard */; };
 		841255BD16A035E3001749D9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841255BB16A035E3001749D9 /* MainStoryboard_iPad.storyboard */; };
 		841255C016A035E3001749D9 /* EncoderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841255BF16A035E3001749D9 /* EncoderDemoViewController.m */; };
-		841255C716A035F1001749D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255C616A035F1001749D9 /* AVFoundation.framework */; };
-		841255C916A035F9001749D9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255C816A035F9001749D9 /* CoreMedia.framework */; };
-		841255CB16A09114001749D9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255CA16A09114001749D9 /* CoreVideo.framework */; };
 		846119C716D3BF8D00468D98 /* CameraServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 846119C616D3BF8D00468D98 /* CameraServer.m */; };
-		B5450FDB263AB3D300DF9D5A /* H264_RTSP_Server_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5450FD8263AB39D00DF9D5A /* H264_RTSP_Server_iOS.framework */; };
-		B5450FDC263AB3D300DF9D5A /* H264_RTSP_Server_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5450FD8263AB39D00DF9D5A /* H264_RTSP_Server_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5450FEF263AB91D00DF9D5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841255A016A035E3001749D9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +30,6 @@
 			remoteInfo = "H264-RTSP-Server-iOS";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B5450FDD263AB3D400DF9D5A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B5450FDC263AB3D300DF9D5A /* H264_RTSP_Server_iOS.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8412559C16A035E3001749D9 /* Encoder Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Encoder Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +54,10 @@
 		841255CA16A09114001749D9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		846119C516D3BF8D00468D98 /* CameraServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraServer.h; sourceTree = "<group>"; };
 		846119C616D3BF8D00468D98 /* CameraServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraServer.m; sourceTree = "<group>"; };
+		AA065CB90FDE101D966F32D2 /* Pods-Encoder Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encoder Demo.release.xcconfig"; path = "Target Support Files/Pods-Encoder Demo/Pods-Encoder Demo.release.xcconfig"; sourceTree = "<group>"; };
 		B5450FD3263AB39D00DF9D5A /* H264-RTSP-Server-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "H264-RTSP-Server-iOS.xcodeproj"; path = "H264-RTSP-Server-iOS/H264-RTSP-Server-iOS.xcodeproj"; sourceTree = "<group>"; };
+		CAA6CAD210AD8662E10651A9 /* Pods_Encoder_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encoder_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3021689F42810D1D1CE7AA /* Pods-Encoder Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encoder Demo.debug.xcconfig"; path = "Target Support Files/Pods-Encoder Demo/Pods-Encoder Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5450FDB263AB3D300DF9D5A /* H264_RTSP_Server_iOS.framework in Frameworks */,
-				841255CB16A09114001749D9 /* CoreVideo.framework in Frameworks */,
-				841255C916A035F9001749D9 /* CoreMedia.framework in Frameworks */,
-				841255C716A035F1001749D9 /* AVFoundation.framework in Frameworks */,
-				841255A116A035E3001749D9 /* UIKit.framework in Frameworks */,
-				841255A316A035E3001749D9 /* Foundation.framework in Frameworks */,
-				841255A516A035E3001749D9 /* CoreGraphics.framework in Frameworks */,
+				B5450FEF263AB91D00DF9D5A /* UIKit.framework in Frameworks */,
+				36F4CE118EE82895A8ED1BF8 /* Pods_Encoder_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +83,7 @@
 				841255C616A035F1001749D9 /* AVFoundation.framework */,
 				8412559F16A035E3001749D9 /* Frameworks */,
 				8412559D16A035E3001749D9 /* Products */,
+				B10A05A7B45341B7475A721D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +101,7 @@
 				841255A016A035E3001749D9 /* UIKit.framework */,
 				841255A216A035E3001749D9 /* Foundation.framework */,
 				841255A416A035E3001749D9 /* CoreGraphics.framework */,
+				CAA6CAD210AD8662E10651A9 /* Pods_Encoder_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,6 +136,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B10A05A7B45341B7475A721D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF3021689F42810D1D1CE7AA /* Pods-Encoder Demo.debug.xcconfig */,
+				AA065CB90FDE101D966F32D2 /* Pods-Encoder Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B5450FD4263AB39D00DF9D5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,10 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841255C316A035E3001749D9 /* Build configuration list for PBXNativeTarget "Encoder Demo" */;
 			buildPhases = (
+				473D74B8601EB2A874E6E5B1 /* [CP] Check Pods Manifest.lock */,
 				8412559816A035E3001749D9 /* Sources */,
 				8412559916A035E3001749D9 /* Frameworks */,
 				8412559A16A035E3001749D9 /* Resources */,
-				B5450FDD263AB3D400DF9D5A /* Embed Frameworks */,
+				99E02BF9A0B63E15074E6CB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +240,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		473D74B8601EB2A874E6E5B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encoder Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E02BF9A0B63E15074E6CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Encoder Demo/Pods-Encoder Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/H264-RTSP-Server-iOS/H264_RTSP_Server_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/H264_RTSP_Server_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Encoder Demo/Pods-Encoder Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8412559816A035E3001749D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,7 +347,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,7 +369,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,12 +379,13 @@
 		};
 		841255C416A035E3001749D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3021689F42810D1D1CE7AA /* Pods-Encoder Demo.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F7AP32ZTM5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Encoder Demo/Encoder Demo-Prefix.pch";
 				INFOPLIST_FILE = "Encoder Demo/Encoder Demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -360,12 +394,13 @@
 		};
 		841255C516A035E3001749D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA065CB90FDE101D966F32D2 /* Pods-Encoder Demo.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F7AP32ZTM5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Encoder Demo/Encoder Demo-Prefix.pch";
 				INFOPLIST_FILE = "Encoder Demo/Encoder Demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

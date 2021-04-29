@@ -1,0 +1,16 @@
+PODS:
+  - H264-RTSP-Server-iOS (1.1.0)
+
+DEPENDENCIES:
+  - H264-RTSP-Server-iOS (from `H264-RTSP-Server-iOS/H264-RTSP-Server-iOS.podspec`)
+
+EXTERNAL SOURCES:
+  H264-RTSP-Server-iOS:
+    :path: H264-RTSP-Server-iOS/H264-RTSP-Server-iOS.podspec
+
+SPEC CHECKSUMS:
+  H264-RTSP-Server-iOS: 4d439525cbdaa03c3fae58d14e3d0a37ca8a2dd0
+
+PODFILE CHECKSUM: 182413516bbfa917392ab2467544ab735b6591cf
+
+COCOAPODS: 1.8.4
