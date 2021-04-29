@@ -7,8 +7,7 @@
 //
 
 #import "CameraServer.h"
-#import "AVEncoder.h"
-#import "RTSPServer.h"
+#import <H264_RTSP_Server_iOS/H264_RTSP_Server_iOS.h>
 
 static CameraServer* theServer;
 

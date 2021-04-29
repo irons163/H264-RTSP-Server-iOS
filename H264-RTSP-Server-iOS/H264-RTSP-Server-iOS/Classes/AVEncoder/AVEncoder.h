@@ -7,13 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AVFoundation/AVAssetWriter.h"
-#import "AVFoundation/AVAssetWriterInput.h"
-#import "AVFoundation/AVMediaFormat.h"
-#import "AVFoundation/AVVideoSettings.h"
-#import "sys/stat.h"
-#import "VideoEncoder.h"
-#import "MP4Atom.h"
+#import <AVFoundation/AVFoundation.h>
 
 typedef int (^encoder_handler_t)(NSArray* data, double pts);
 typedef int (^param_handler_t)(NSData* params);

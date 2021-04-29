@@ -8,6 +8,9 @@
 
 #import "AVEncoder.h"
 #import "NALUnit.h"
+#import "VideoEncoder.h"
+#import "MP4Atom.h"
+#import "sys/stat.h"
 
 static unsigned int to_host(unsigned char* p)
 {
